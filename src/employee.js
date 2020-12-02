@@ -11,7 +11,7 @@ export default function Employee(props) {
   }, [props.match.params.id])
     return (
         <div>
-            {user.id} = {user.name}
+            {user.id} = {user.username}
         </div>
     )
 }

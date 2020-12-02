@@ -24,7 +24,7 @@ console.log(id)
      return (
        <>id === {post.id} <br></br>
        username ===={post.username}<br></br>
-       <Link to={'/employee/'+ post.id}><button onClick={() => viewHandler(post.id)}>View</button></Link>
+       <Link to={`/employee/${post.id}`}><button onClick={() => viewHandler(post.id)}>View</button></Link>
        <hr></hr>
        </>
      )
